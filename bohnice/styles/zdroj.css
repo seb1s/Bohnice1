@@ -1,0 +1,35 @@
+body{
+    height: 200vh;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.pozadi1{
+    position: absolute;
+    top: 0px;
+    height: 1100px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#5134b9 30%, #ee7d51);
+    z-index: -10;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #4d4d4d;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+        border-radius: 1px;
+    }

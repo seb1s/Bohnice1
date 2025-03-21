@@ -1,0 +1,60 @@
+.topnav{
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: 0;
+    z-index: 9;
+    background-color: #3a298d;
+    width: 100%;
+    animation: bottomIn 0.2s ease forwards;
+    align-items: center;
+    justify-content: right;
+}
+
+.topnav a{
+    float: inherit;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 40px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    align-items: center;
+    font-family: lexend;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.topnav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.topnav a.active{
+    background-color: #4b34be;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+/* obrazec */
+.topnav div{
+    position: fixed;
+    display: flex;
+    left: 0;
+    z-index: 10;
+    top: 0px;
+    padding: 10px 10px;
+    animation: bottomIn 0.2s ease forwards;
+}
+
+.topnav div h4 {
+    position: relative;
+    left: 90px;
+    top: -30px;
+    color: white;
+    font-size: 30px;
+    font-family: lexend;
+}

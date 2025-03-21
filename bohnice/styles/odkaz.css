@@ -1,0 +1,169 @@
+body{
+    background-color: #ffffff;
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+.titleBar1{
+    background-image: linear-gradient(175deg,#5134b9 40%, #ee7d51);
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-bottom: 165px;
+    justify-content: center;
+}
+
+  .titleBar1 h5{
+      position: relative;
+      color: rgb(255, 255, 255);
+      font-size: 135px;
+      top: 50px;
+      font-family: lexend;
+      text-align: center;
+      animation: fadeIn 2s ease forwards;
+  }
+
+.textbar1{
+  position: absolute;
+  top: 700px;
+  left: 0;
+  z-index: 2;
+}
+
+  .textbar1 h5{
+    color: #000000;
+    font-size: 50px;
+    padding: 30px 80px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: lexend;
+    z-index: 1;
+  }   
+
+.bohniceimg{
+  position: relative;
+  top: 950px;
+}
+
+      .bohniceimg img{
+        position: relative;
+        filter: blur(4px) brightness(55%);
+        left: -25px;
+      }
+
+.bohnicepopis{
+  position: relative;
+  top: 1000px;
+} 
+
+      .bohnicepopis a{
+        position: relative;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        color: #ffffff;
+        font-family: lexend;
+        font-size: 175px;
+        top: -900px;
+        justify-content: center;
+        transition: 0.5s;
+      }
+
+      .bohnicepopis a:hover{
+        transform: scale(1.1);
+      }
+
+      .bohnicepopis p{
+        position: relative;
+        display: flex;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        font-family: lexend;
+        font-size: 25px;
+        width: 100%;
+        padding: 0px 0px;
+        top: -900px;
+        justify-content: center;
+
+      }
+
+.linka{
+  position: relative;
+  top: -300px;
+}
+  .skrecokdzungarsky{
+    position: relative;
+    filter: brightness(50%);
+    top: 500px;
+    left: -25px;
+    z-index: -1;
+  }
+  .linkatext{
+    text-align: center;
+    font-family: lexend;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .linkatext a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 175px;
+    justify-content: center;
+  }
+
+  .linkatext p{
+    font-size: 25px;
+    padding: 0 30px;
+  }
+
+  .linkatext a:hover{
+    transform: scale(1.1);
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #4d4d4d;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+        border-radius: 1px;
+    }
+    
+    @font-face {
+        font-family: lexend;
+        src: url(/bohnice/assets/fonts/Lexend-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: poiret;
+        src: url(/bohnice/assets/fonts/PoiretOne-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: tera;
+        src: url(/bohnice/assets/fonts/LexendTera-Regular.ttf);
+    }
+    
+    @keyframes fadeIn{
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }

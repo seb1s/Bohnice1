@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #5134b9;
+    position: fixed;
+    display: flex;
+    top: 6%;
+    left: 0%;
+    height: 40px;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    z-index: 10;
+    font-family: lexend;
+    animation: bottomIn 0.2s ease forwards;
+    border-style: groove;
+    border-width: 2px 0 2px 0;
+    border-color: #5134b9;
+    align-items: center;
+}
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: inherit;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #6541e7;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  @font-face {
+    font-family: lexend;
+    src: url(/bohnice/assets/fonts/Lexend-Regular.ttf);
+}
+
+@keyframes bottomIn{
+  from {transform: translateY(-140px);}
+  to {transform: translateY(0px);}
+}

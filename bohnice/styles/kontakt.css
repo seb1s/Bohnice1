@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    height: 200vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.titleBar1{
+    background-image: linear-gradient(175deg,#5134b9 40%, #ee7d51);
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 455px;
+    width: 100%;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+
+.gridK{
+    position: relative;
+    display: grid;
+    top: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 400px;
+    place-items: center;
+}
+    .gridK div{
+        background-color: #ffffff;
+        padding: 10px 200px;
+        border-style: solid;
+        border-radius: 40px;
+        width: 40%;
+        font-size: xx-large;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        text-align: center;
+        box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.434),-4px 4px 8px rgba(0, 0, 0, 0.334);
+        transition: 0.2s;
+        font-family: lexend;
+        z-index: 1;
+    }
+
+    .gridK div:hover{
+       transform: scale(1.1);
+    }
+.sekcekontakty{
+        position: relative;
+        top: 690px;
+        z-index: 5;
+    }
+    .sekcekontakty h1{
+        text-align: center;
+        font-family: lexend;
+        font-size: 110px;
+    }
+    .sekcekontakty h3{
+        position: relative;
+        text-align: center;
+        font-family: tera;
+        top: -40px;
+        font-size: 20px;
+    }
+    .sekcekontakty p{
+        font-family: lexend;
+        display: flex;
+        font-size: 40px;
+        width: 1000px;
+        border-radius: 50px;
+        border-style: groove;
+        border-width: 2px;
+        border-color: #cecece;
+        padding: 50px 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .sekcekontakty div{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+.sekcekontakty2{
+    position: relative;
+    left: 0;
+    top: 1250px;
+    z-index: 5;
+    width: 100%;
+    background-image: linear-gradient(#0a0522 5%,#140d35);
+    height: 2000px;
+}
+    .sekcekontakty2 h1{
+        text-align: center;
+        font-family: lexend;
+        color: #ffffff;
+        font-size: 80px;
+    }
+    .sekcekontakty2 p{
+        text-align: center;
+        font-family: lexend;
+        color: #ffffff;
+        font-size: 30px;
+        margin: 0 40px;
+    }
+html{
+    scroll-behavior: smooth;
+    margin: 0 0;
+}
+    
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+        
+    ::-webkit-scrollbar-track {
+        background: #4d4d4d;
+    }
+        
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1px;
+    }
+        
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+        border-radius: 1px;
+    }
+    
+    @font-face {
+        font-family: lexend;
+        src: url(/bohnice/assets/fonts/Lexend-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: poiret;
+        src: url(/bohnice/assets/fonts/PoiretOne-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: tera;
+        src: url(/bohnice/assets/fonts/LexendTera-Regular.ttf);
+    }
+    
+    @keyframes fadeIn{
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }

@@ -1,0 +1,174 @@
+.svg {
+    position: absolute;
+    top: 642px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+    
+     .svg svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 148px;
+    }
+    
+    .svg .shape-fill {
+        fill: #ffffff;
+    }
+
+    .svg2{
+        position: absolute;
+        top: 965px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: 1;
+    }
+    
+        .svg2 svg {
+            position: relative;
+            transform: rotate(180deg);
+        }
+    
+        .svg2 .shape-fill {
+            fill: white;
+        }
+    
+    
+    
+        .svg3 {
+            position: absolute;
+            top: 2110px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+            
+             .svg3 svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 148px;
+            }
+            
+            .svg3 .shape-fill {
+                fill: #ffffff;
+            }
+        
+        .svg4{
+            position: absolute;
+            top: 2255px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+            z-index: 1;
+        }
+        
+            .svg4 svg {
+                position: relative;
+                transform: rotate(180deg);
+            }
+        
+            .svg4 .shape-fill {
+                fill: #ffffff;
+            }
+.svg6{
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.svg6 .shape-fill{
+    fill: #0a0522;
+}
+.svg7{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+
+    .svg7 .shape-fill {
+        fill: #ffffff;
+    }
+
+
+.svg9{
+    position: absolute;
+    transform: rotate(180deg);
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 3220px;
+    line-height: 0;
+}
+.svg9 .shape-fill{
+fill: #ffffff;
+}
+
+.svg0{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 3470px;
+    line-height: 0;
+}
+.svg0 .shape-fill{
+    fill: #ffffff;
+    }
+
+    .svgzdroje {
+        position: absolute;
+        top: 872px;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+        
+         .svgzdroje svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 228px;
+        }
+        
+        .svgzdroje .shape-fill {
+            fill: #ffffff;
+        }
+        .svgonas {
+            position: absolute;
+            top: 872px;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+            
+             .svgonas svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 228px;
+            }
+            
+            .svgonas .shape-fill {
+                fill: #ffffff;
+            }

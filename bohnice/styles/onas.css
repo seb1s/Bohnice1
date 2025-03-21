@@ -1,0 +1,141 @@
+body{
+    background-image: linear-gradient(#ffffff 20%, aliceblue);
+    height: 500vh;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.pozadi1{
+    position: absolute;
+    top: 0px;
+    height: 1100px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#5134b9 30%, #ee7d51);
+    z-index: -10;
+}
+
+/*######################################|sekce1|######################################*/
+
+.sekce1{
+    position: relative;
+    top: 50px;
+}
+    .sekce1 h1{
+        color: #ffffff;
+        text-align: center;
+        font-size: 70px;
+        padding-top: 20px;
+        font-family: lexend;
+    }
+    .sekce1 grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 500px 100px;
+        place-items: center;
+    }
+    .sekce1 grid img{
+        width: 420px;
+        height: 400px;
+        border-radius: 40px;
+        transition: 0.2s;
+    }
+        .S{
+            animation: maindev 2s infinite;
+        }
+    .sekce1 grid img:hover{
+        transform: scale(1.1);
+    }
+    .sekce1 grid div{
+        background-color: #ffffff;
+        padding: 10px 100px;
+        border-radius: 20px;
+        border: 1px solid black;
+        transition: 0.3s;
+    }
+    .sekce1 grid div h2{
+        color: #000000;
+        font-family: lexend;
+        text-align: center;
+    }
+    .sekce1 grid div:hover{
+        border-color: #000000;
+        box-shadow: 0 0 40px #ffffff;
+    }
+    .sekce1 grid p{
+        color: #ffffff;
+        font-family: lexend;
+        text-align: center;
+        font-size: 18px;
+        background-color: #000000;
+        padding: 5px 20px;
+        border-radius: 10px;
+    }
+    .sekce1 grid a{
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .sekce1 grid a:hover{
+        transform: scale(1.05);
+    }
+
+/*######################################|konec sekce1|######################################*/
+
+/*######################################|sekce2|######################################*/
+.sekce2{
+    position: relative;
+    top: 200px;
+}
+.sekce2 h1{
+    text-align: center;
+    font-family: lexend;
+    font-size: 60px;
+}
+.sekce2 p{
+    text-align: center;
+    font-family: lexend;
+    font-size: 25px;
+}
+
+/*######################################|konec sekce2|######################################*/
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #4d4d4d;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+        border-radius: 1px;
+    }
+
+    @media (width <= 1700px) {
+        .sekce1 grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 500px 1100px;
+            place-items: center;
+        }
+
+
+    }
+
+    @keyframes maindev{
+        from {filter: hue-rotate(0deg) ;}
+        to {filter: hue-rotate(360deg);}
+    }
