@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(#ffffff 20%, aliceblue);
+    height: 500vh;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #4d4d4d;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+        border-radius: 1px;
+    }
+
+@font-face {
+    font-family: lexend;
+    src: url(/bohnice/assets/fonts/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: poiret;
+    src: url(/bohnice/assets/fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: tera;
+    src: url(/bohnice/assets/fonts/LexendTera-Regular.ttf);
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

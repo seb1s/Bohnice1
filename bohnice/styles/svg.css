@@ -172,3 +172,23 @@ fill: #ffffff;
             .svgonas .shape-fill {
                 fill: #ffffff;
             }
+
+            .svgpohoda {
+                position: absolute;
+                top: 472px;
+                width: 100%;
+                overflow: hidden;
+                line-height: 0;
+                transform: rotate(180deg);
+            }
+                
+                 .svgpohoda svg {
+                    position: relative;
+                    display: block;
+                    width: calc(100% + 1.3px);
+                    height: 228px;
+                }
+                
+                .svgpohoda .shape-fill {
+                    fill: #ffffff;
+                }
