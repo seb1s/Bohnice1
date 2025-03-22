@@ -192,3 +192,98 @@ fill: #ffffff;
                 .svgpohoda .shape-fill {
                     fill: #ffffff;
                 }
+                .svgpohoda1 {
+                    position: absolute;
+                    top: 1100px;
+                    width: 100%;
+                    overflow: hidden;
+                    line-height: 0;
+                    
+                }
+                    
+                     .svgpohoda1 svg {
+                        position: relative;
+                        display: block;
+                        width: calc(100% + 1.3px);
+                        height: 228px;
+                    }
+                    
+                    .svgpohoda1 .shape-fill {
+                        fill: #ffffff;
+                    }
+                    .svgpohoda2 {
+                        position: absolute;
+                        top: 2200px;
+                        width: 100%;
+                        overflow: hidden;
+                        line-height: 0;
+                        
+                    }
+                        
+                         .svgpohoda2 svg {
+                            position: relative;
+                            display: block;
+                            width: calc(100% + 1.3px);
+                            height: 228px;
+                        }
+                      
+                        .svgpohoda2 .shape-fill {
+                            fill: #361354;
+                        }
+                        .svgpohoda3 {
+                            position: absolute;
+                            top: 3300px;
+                            width: 100%;
+                            overflow: hidden;
+                            line-height: 0;
+                            
+                        }
+                            
+                             .svgpohoda3 svg {
+                                position: relative;
+                                display: block;
+                                width: calc(100% + 1.3px);
+                                height: 228px;
+                            }
+                     
+                            .svgpohoda3 .shape-fill {
+                                fill: #791d5b;
+                            }
+                            .svgpohoda4 {
+                                position: absolute;
+                                top: 4400px;
+                                width: 100%;
+                                overflow: hidden;
+                                line-height: 0;
+                                
+                            }
+                                
+                                 .svgpohoda4 svg {
+                                    position: relative;
+                                    display: block;
+                                    width: calc(100% + 1.3px);
+                                    height: 228px;
+                                }
+                         
+                                .svgpohoda4 .shape-fill {
+                                    fill: #285c60;
+                                }
+                                .svgpohoda5 {
+                                    position: absolute;
+                                    top: 5375px;
+                                    width: 100%;
+                                    overflow: hidden;
+                                    line-height: 0;
+                                    transform: rotate(180deg);
+                                }
+                                    
+                                     .svgpohoda5 svg {
+                                        position: relative;
+                                        display: block;
+                                        width: calc(100% + 1.3px);
+                                        height: 228px;
+                                    }
+                             
+                                    .svgpohoda5 .shape-fill {
+                                        fill: aliceblue;
+                                    }
