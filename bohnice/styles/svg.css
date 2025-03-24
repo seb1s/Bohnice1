@@ -287,3 +287,134 @@ fill: #ffffff;
                                     .svgpohoda5 .shape-fill {
                                         fill: aliceblue;
                                     }
+                                    .svgdus1 {
+                                        position: absolute;
+                                        top: 675px;
+                                        width: 100%;
+                                        overflow: hidden;
+                                        line-height: 0;
+                                        transform: rotate(180deg);
+                                    }
+                                        
+                                         .svgdus1 svg {
+                                            position: relative;
+                                            display: block;
+                                            width: calc(100% + 1.3px);
+                                            height: 228px;
+                                        }
+                                 
+                                        .svgdus1 .shape-fill {
+                                            fill: rgb(255, 255, 255);
+                                        }
+                                        .svgdus2 {
+                                            position: absolute;
+                                            top: 1800px;
+                                            width: 100%;
+                                            overflow: hidden;
+                                            line-height: 0;                                           
+                                        }
+                                            
+                                             .svgdus2 svg {
+                                                position: relative;
+                                                display: block;
+                                                width: calc(100% + 1.3px);
+                                                height: 228px;
+                                            }
+                                     
+                                            .svgdus2 .shape-fill {
+                                                fill: rgb(255, 255, 255);
+                                            }
+                                        
+                                        .svgdus3 {
+                                            position: absolute;
+                                            top: 3575px;
+                                            width: 100%;
+                                            overflow: hidden;
+                                            line-height: 0;   
+                                            transform: rotate(180deg);                                        
+                                        }
+                                            
+                                             .svgdus3 svg {
+                                                position: relative;
+                                                display: block;
+                                                width: calc(100% + 1.3px);
+                                                height: 228px;
+                                            }
+                                     
+                                            .svgdus3 .shape-fill {
+                                                fill: rgb(255, 255, 255);
+                                            }
+                                            .svgdus4 {
+                                                position: absolute;
+                                                top: 4085px;
+                                                width: 100%;
+                                                overflow: hidden;
+                                                line-height: 0;                                                                                          
+                                            }
+                                                
+                                                 .svgdus4 svg {
+                                                    position: relative;
+                                                    display: block;
+                                                    width: calc(100% + 1.3px);
+                                                    height: 228px;
+                                                }
+                                         
+                                                .svgdus4 .shape-fill {
+                                                    fill: rgb(255, 255, 255);
+                                                }
+                                                .svgdus5 {
+                                                    position: absolute;
+                                                    top: 5475px;
+                                                    width: 100%;
+                                                    overflow: hidden;
+                                                    line-height: 0;   
+                                                    transform: rotate(180deg);                                                                                       
+                                                }
+                                                    
+                                                     .svgdus5 svg {
+                                                        position: relative;
+                                                        display: block;
+                                                        width: calc(100% + 1.3px);
+                                                        height: 228px;
+                                                    }
+                                             
+                                                    .svgdus5 .shape-fill {
+                                                        fill: rgb(255, 255, 255);
+                                                    }
+                                                    .svgdus6 {
+                                                        position: absolute;
+                                                        top: 5995px;
+                                                        width: 100%;
+                                                        overflow: hidden;
+                                                        line-height: 0;                                                                                         
+                                                    }
+                                                        
+                                                         .svgdus6 svg {
+                                                            position: relative;
+                                                            display: block;
+                                                            width: calc(100% + 1.3px);
+                                                            height: 228px;
+                                                        }
+                                                 
+                                                        .svgdus6 .shape-fill {
+                                                            fill: rgb(255, 255, 255);
+                                                        }
+                                                        .svgdus7 {
+                                                            position: absolute;
+                                                            top: 7575px;
+                                                            width: 100%;
+                                                            overflow: hidden;
+                                                            line-height: 0;
+                                                            transform: rotate(180deg);                                                                                         
+                                                        }
+                                                            
+                                                             .svgdus7 svg {
+                                                                position: relative;
+                                                                display: block;
+                                                                width: calc(100% + 1.3px);
+                                                                height: 228px;
+                                                            }
+                                                     
+                                                            .svgdus7 .shape-fill {
+                                                                fill: rgb(255, 255, 255);
+                                                            }

@@ -1,7 +1,165 @@
 body{
-    background-image: linear-gradient(#ffffff 20%, aliceblue);
-    height: 500vh;
+    height: 8000px;
     overflow-x: hidden;
+    margin: 0;
+}
+.pozadi1{
+    position: absolute;
+    top: 0px;
+    height: 900px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#5134b9 30%, #ee7d51);
+    z-index: -10;
+}
+.pozadi2{
+    position: absolute;
+    top: 1800px;
+    height: 2000px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#a8e4f3 30%, #5e297c);
+    z-index: -10;
+}
+.pozadi3{
+    position: absolute;
+    top: 4100px;
+    height: 1600px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#d0a6e0 30%, #9b6bb6);
+    z-index: -10;
+}
+.pozadi4{
+    position: absolute;
+    top: 6000px;
+    height: 1800px;
+    width: 3000px;
+    background-image: linear-gradient(175deg,#37348F 30%, #37348F);
+    z-index: -10;
+}
+.Nadpis{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+}
+.Nadpis h1{
+    font-family: lexend;
+    color: #ffffff;
+    font-size: 120px;
+}
+.sekce1{
+    position: relative;
+    top: 600px;
+}
+.hlava1{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+.hlava1 img{
+    width: 500px;
+}
+.hlava1 h2{
+    font-family: lexend;
+    top: 200px;
+    position: relative;
+    font-size: 35px;
+    width: 500px;
+}
+.sekce2{
+    position: relative;
+    top: 1200px;
+}
+.nadpis2{
+    text-align: center;
+    font-size: 50px;
+    font-family: lexend;
+}
+.contentfo{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    font-family: lexend; 
+    top: 100px;   
+}
+.contentfo h3{
+    font-size: 30px;
+    text-align: center;
+}
+.contentfo p{
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+}
+.contentfo img{
+    width: 500px;
+    position: relative;
+    top: -100px;
+}
+.contentfo2{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    font-family: lexend; 
+    top: 100px;   
+}
+.contentfo2 h3{
+    font-size: 30px;
+    text-align: center;
+}
+.contentfo2 p{
+    font-size: 25px;
+    text-align: center;
+    width: 500px;
+}
+.contentfo2 img{
+    width: 500px;
+    position: relative;
+    top: -100px;
+}
+.nadpis3{
+    text-align: center;
+    font-family: lexend;
+    position: relative;
+    top: 1600px;
+    font-size: 40px;
+}
+.sekce3{
+    position: relative;
+    top: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.starat{
+    font-family: lexend;
+    font-size: 30px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+.nadpis4{
+    text-align: center;
+    font-family: lexend;
+    position: relative;
+    top: 2500px;
+    font-size: 40px;
+}
+.sekce4{
+    position: relative;
+    top: 2500PX;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+.pomoc{
+    color: #ffffff;
+    font-family: lexend;
+    font-size: 30px;
+    position: relative;
+    top: 500px;
+    width: 600px;
+}
+.pomoc img{
+    width: 500px;
 }
 html{
     scroll-behavior: smooth;
