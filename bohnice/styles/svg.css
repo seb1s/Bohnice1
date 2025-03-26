@@ -418,3 +418,17 @@ fill: #ffffff;
                                                             .svgdus7 .shape-fill {
                                                                 fill: rgb(255, 255, 255);
                                                             }
+                                                            .svgonas2{
+                                                                position: absolute;
+                                                                top: 1200px;
+                                                                left: 0;
+                                                                z-index: -1;
+                                                                width: 100%;
+                                                                overflow: hidden;
+                                                                line-height: 0;
+                                                                transform: rotateY(180deg) rotate(180deg);
+                                                            }
+                                                            .svgonas2 .shape-fill{
+                                                                fill: #ffffff;
+                                                                
+                                                            }
