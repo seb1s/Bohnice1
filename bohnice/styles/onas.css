@@ -48,6 +48,9 @@ body{
         .T{
             animation: dev2 2ms  infinite;
         }
+        .J{
+            animation: dev3 100ms infinite;
+        }
     .sekce1 grid img:hover{
         transform: scale(1.1);
     }
@@ -152,4 +155,8 @@ html{
     @keyframes dev2{
         from {transform: scale(100%) ;}
         to {transform: scale(105%);}
+    }
+    @keyframes dev3{
+        from {filter: contrast(100%) ;}
+        to {filter: contrast(400%);}
     }
