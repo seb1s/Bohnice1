@@ -18,7 +18,6 @@ body{
     height: 2100px;
     width: 3000px;
     background-image: url(/bohnice/assets/himalaya_mountains_under_blue_sky_during_daytime_4k_hd_nature-3840x2160.jpg);
-    
     filter: brightness(40%);
     z-index: -10;
 }
